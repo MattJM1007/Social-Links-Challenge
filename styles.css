@@ -1,0 +1,87 @@
+html{
+    font-family: Inter, sans-serif;
+    text-align: center;
+    background-color:  hsl(0, 0%, 8%);
+    color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+main{
+    background-color: hsl(0, 0%, 12%);
+    width: 384px;
+    height: 614px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.profilepic{
+    height: 86px;
+    border-radius: 50%;
+    margin-top: 60px;
+}
+
+.name{
+    font-size: 24.5px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+.location{
+    font-size: 14px;
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);
+}
+
+.bio{
+    font-size: 14px;
+    font-weight: 300;
+    margin: 18px;
+}
+
+button{
+    width: 303px;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: 600;
+    background-color:  hsl(0, 0%, 20%);
+    color: white;
+    border: none;
+    margin-bottom: 5px;
+}
+
+button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%); 
+    cursor: pointer;
+}
+
+.last{
+    margin-bottom: 60px;
+}
+
+@media (max-width: 375px){
+    main{
+        width: 325px;
+        height: 580px;
+    }
+    
+    button{
+        width: 280px;
+    }
+}
